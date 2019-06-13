@@ -1,8 +1,14 @@
 
-# coding: utf-8
-
-# In[12]:
-
+## 프로젝트 명       : brain_tumor_semantic_segmentation
+## 프로젝트 목적     : 이미지를 전처리하여 뇌의 병변부분을 찾아내서 mask로 만들고 그것들을 이용해 semantic_segmentation을 한다.
+## 스크립트 기능     : 이미지 전처리
+## 스크립트 명       : tumor_pre.py
+##                 1. 이미지를 받아와 flair_image_prepare를 실행한다.
+## 작성 시작 일시    : 2019. 06. 12.
+## 마지막 수정 일시  : 2019. 06. 14.
+## 작성자 및 수정자  : 한윤성
+## e-mail         : yunsung9503@gmail.com 
+## github 링크      : https://github.com/22ema/brain-mri-semantic-seg
 
 import cv2
 import numpy as np
